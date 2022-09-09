@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess The Number?</title>
+  </head>
+  <link rel="stylesheet" href="style.css" />
+  <body>
+    <!-- <input type="number" id="input" />
+    <button id="btn" onclick="get()">Click</button>
+    <h1 id="display"></h1>
+    <P id="result"></P>   -->
+    <div class="cointainer">
+      <div class="main">
+        <div class="head">
+          <h1>Guess The Number?</h1>
+          <div
+            class="line"
+            style="
+              height: 5px;
+              width: 100%;
+              background-color: tomato;
+              border: 1px solid black;
+            "
+          ></div></div>
+       <div class="inner">
+      
+      <div
+        class="number"
+        
+      >
+        <input
+          type="number"
+          id="input"
+          placeholder="Enter Number"
+         
+        />
+      </div>
+      <div class="btn"  id="btn" onclick="get()">Check</div>
+      <div
+        class="btn-again"
+        id="btn-again"
+        onclick="window.location.reload()"
+      >
+        Play Again
+      </div>
+      <div class="lastnum" id="display"></div>
+    </div>
+    <div class="output" id="result"></div>
+      
+    </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>

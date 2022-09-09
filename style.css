@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Josefin+Sans:ital,wght@1,300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Josefin+Sans:ital,wght@1,300&family=Prompt:ital@0;1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.cointainer {
+    /* background-color:aqua ; */
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    height: 537px;
+    width: 68%;
+    background-color: #c282fd;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+    flex-wrap: wrap;
+    overflow: hidden;
+    border: 2px solid black;
+}
+
+.main h1 {
+    font-family: 'Anton', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    font-size: 55px;
+}
+
+.head {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main .btn {
+    height: 53px;
+    width: 122px;
+
+    background-color: crimson;
+    display: flex;
+    align-items: center;
+    font-family: "Anton", sans-serif;
+    margin-top: 20px;
+    justify-content: center;
+    font-size: 31px;
+
+    border-radius: 88px;
+    font-weight: 100;
+    border: 1px solid black;
+}
+
+.main .btn:hover {
+    color: purple;
+    background-color: #fff;
+}
+
+.main .btn-again:hover {
+    color: purple;
+    background-color: #fff;
+}
+
+.main .btn-again {
+    height: 53px;
+    width: 174px;
+
+    background-color: crimson;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    font-size: 31px;
+
+    font-family: cursive;
+    border-radius: 88px;
+    font-weight: 800;
+    
+    border: 1px solid black;
+    margin-top: 20px
+}
+
+.output {
+    height: 134px;
+    width: 85%;
+    /* position: absolute; */
+    background-color: rgb(229, 231, 231);
+    top: 66%;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-family: "Josefin Sans", sans-serif;
+    border: 2px solid black;
+    margin-bottom: 20px;
+}
+
+.lastnum {
+    height: 12%;
+    width: 56%;
+    background-color: #f3f3f5;
+    border-radius: 100px;
+    top: 362px;
+    border: 1px solid black;
+    /* position: absolute; */
+    font-size: 25px;
+    
+    font-family: 'Prompt', sans-serif;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#input {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 92px;
+    font-size: 42px;
+}
+
+.number {
+    height: 31%;
+    width: 80%;
+
+}
+
+.inner {
+    /* background-color: black; */
+    height: 53%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* making Responsive  */
+@media (max-width:1015px){
+.inner{
+    width: 56%
+}
+}
+@media (max-width:873px){
+    .inner{
+        width: 60%
+    }
+    .lastnum{
+        font-size: 22px;
+    }
+    }
+    @media (max-width:804px){
+        .main h1{
+            font-size: 51px;
+        }
+        .inner {
+            width: 65%;
+        }
+    }
+    @media (max-width:727px){
+        .main h1{
+            font-size: 46px;
+        }
+        .inner {
+            width: 69%;
+        }
+    }
+    @media (max-width:661px){
+        .main h1{
+            font-size: 41px;
+        }
+        .inner {
+            width: 75%;
+        }
+    }
+    @media (max-width:601px){
+        .main h1{
+            font-size: 35px;
+        }
+        .inner {
+            width: 86%;
+        }
+        .main{
+            width: 80%;
+        }
+    }
+    @media (max-width:493px){
+        .main h1{
+            font-size: 35px;
+        }
+        .inner {
+            width: 100%;
+        }
+        #input{
+            font-size: 28px;
+        }
+    }
+
+    @media(max-width:415px){
+        .main{
+            width: 90%;
+        }
+        .main h1 {
+            font-size: 31px;
+        }
+    }
+    @media(max-width:350px){
+        .main{
+            width: 95%;
+        }
+        .main h1 {
+            font-size: 28px;
+        }
+    }
